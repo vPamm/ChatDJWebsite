@@ -19,3 +19,7 @@
 * A Spotify Premium Account
 * A Twitch Application
 * A Spotify Application
+
+## Demo
+
+![Demo GIF](https://i.imgur.com/bedRh9n.gif)
