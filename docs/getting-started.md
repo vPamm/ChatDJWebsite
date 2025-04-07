@@ -1,10 +1,16 @@
 <!-- docs/getting-started.md -->
 
+# Quick Guide On How To Use ChatDJ
+
+## Install Node
+
+Install node from [here](https://nodejs.org/en)
+
 # Downloading the Latest Release
 
-You can get the latest release [here](https://github.com/vPamm/ChatDJ/releases)
+Grab the latest release [here](https://github.com/vPamm/ChatDJ/releases)
 
-# Setting Up the Applications
+# Setting up Applications
 
 ## Twitch
 
