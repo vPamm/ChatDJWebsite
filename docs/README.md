@@ -15,7 +15,7 @@
 * Node.js (need it installed for the release and for the source code itself)
 * Go (v1.16 or higher)
 * Vue
-* A Twitch Affilate/Partner Account
+* A Twitch Affiliate/Partner Account
 * A Spotify Premium Account
 * A Twitch Application
 * A Spotify Application
