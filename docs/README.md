@@ -22,4 +22,4 @@
 
 ## Demo
 
-![Demo GIF](https://i.imgur.com/bedRh9n.gif)
+![Demo GIF](https://i.imgur.com/Ls2ktg7.gif)
