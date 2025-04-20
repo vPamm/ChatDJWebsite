@@ -2,5 +2,6 @@
 
 * [Home](/)
 * [Getting Started](getting-started.md)
-* [Running the app for yourself!](running.md)
-* [Building the Executable](building.md)
+* [FAQ](faq.md)
+* [Running the Script](running.md)
+* [Building an Executable](building.md)

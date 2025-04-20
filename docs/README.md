@@ -9,6 +9,7 @@
 
 - **Swap Playlists**: Use a channel point redemption to cycle through multiple predefined Spotify playlists.
 - **Song Requests**: Let viewers request songs by submitting Spotify links via channel point redemptions.
+- **Community Playlists**: Have your viewers build a playlist with you!
 
 ## Prerequisites
 
