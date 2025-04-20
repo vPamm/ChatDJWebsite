@@ -8,7 +8,7 @@
 
 ## Why can't I use the Twitch redemptions I already set up through the dashboard?
 
-- Good question! Ask the Twitch developers. From [their documentation](https://dev.twitch.tv/docs/api/reference/#update-redemption-status), it only says "The app used to create the reward is the only app that may update the redemption." I miss pubsub
+- Good question! Ask the Twitch developers. From [their documentation](https://dev.twitch.tv/docs/api/reference/#update-redemption-status), it only says "The app used to create the reward is the only app that may update the redemption." I miss pubsub.
 
 ## Why doesn't when I refuse a redemption from the queue, it doesn't remove it from the queue, why do we have to skip it?
 
