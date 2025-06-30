@@ -13,13 +13,21 @@
 
 ## Prerequisites
 
-* Node.js (need it installed for the release and for the source code itself)
 * Go (v1.16 or higher)
-* Vue
-* A Twitch Affiliate/Partner Account
+* A Twitch Affilate/Partner Account (For channel point redemptions)
 * A Spotify Premium Account
-* A Twitch Application
-* A Spotify Application
+* A Twitch Application (https://dev.twitch.tv)
+  - With a redirect url of http://localhost:5000/api/auth/twitch/callback
+* A Spotify Application (https://dev.spotify.com)
+  - With a redirect url of http://localhost:5000/api/auth/spotify/callback
+  - Also using the Web API and the Web Playback SDK
+
+## Commands
+
+- !queue - Will list the current queue.
+- !playlist - Will list the community playlist setup in the settings.
+- !skip - Will start a vote to skip the current song.
+- !forceskip - Will forcefully skip to the next song. (Mod Only.)
 
 ## Demo
 

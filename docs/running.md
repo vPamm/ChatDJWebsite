@@ -1,6 +1,10 @@
 <!-- docs/building.md -->
 
-# Running the program as a script (may not work)
+# Running the program as a script
+
+## Install go
+
+https://go.dev/dl/
 
 ## Cloning and installing dependencies
 
@@ -17,32 +21,12 @@ Go to the project directory
 ```
 
 Install dependencies
-```node
-  npm install
-```
-
-## Building the frontend
-
-Go to the frontend directory
-
-```bash
-  cd frontend
-```
-
-Install dependencies
-
-```node
-  npm install
-```
-
-Build the frontend
-
-```node
-  npm run build 
+```go
+  go get ./...
 ```
 
 ## Run the program!
 
 ```go
-  go run main.go
+  go run .
 ```

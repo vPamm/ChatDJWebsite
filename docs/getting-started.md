@@ -2,10 +2,6 @@
 
 # Quick Guide On How To Use ChatDJ
 
-## Install Node
-
-Install node from [here](https://nodejs.org/en)
-
 # Downloading the Latest Release
 
 Grab the latest release [here](https://github.com/vPamm/ChatDJ/releases)
@@ -37,7 +33,7 @@ Grab the latest release [here](https://github.com/vPamm/ChatDJ/releases)
 *This is due to how Twitch sets up Channel Point Redemptions via the API, if you create it via the dashboard, you can't use it in the API. See [here](https://discuss.dev.twitch.com/t/bug-update-custom-reward-redemption-gives-403/61230/4)*
 
 
-- Make sure you don't already have a "Song Request" or "Swap Playlists" redemption, if you do, delete them.
+- Make sure you don't already have a "Song Request", "Swap Playlists", or "Add to Playlist" redemption, if you do, delete them.
 - Also make sure you've setup your Twitch settings and logged in.
 - Enter your Redemption details [here.](https://i.imgur.com/rwh9Wip.png)
 - Click "Create Reward"
