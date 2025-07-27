@@ -378,16 +378,6 @@
     
     <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>  <span style="color:#66d9ef">go</span> <span style="color:#a6e22e">get</span> .<span style="color:#f92672">/...</span></span></span></code></pre></div>
 <h2 id="building-the-executable">Building the executable <a href="#building-the-executable" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2>
-<div class="alert alert-info d-flex" role="alert">
-  <div class="flex-shrink-1 alert-icon">
-  
-  <span class="material-icons size-20 me-2">
-  info
-  </span></div>
-  
-  <div class="w-100">This is an alert with an <!-- raw HTML omitted -->info<!-- raw HTML omitted --> context. It consists of the info theme colour and icon.</div>
-  </div>
-
 <nav>
 	<div class="nav nav-tabs" id="nav-tab" role="tablist">
 
@@ -399,14 +389,14 @@
 		
 
 		<a class="nav-link  active"
-		   id="cebdfaTab" data-bs-toggle="tab" data-bs-target="#cebdfa"
-		   type="button" role="tab" aria-controls="cebdfa" aria-selected="true">Windows</a>
+		   id="fcbedaTab" data-bs-toggle="tab" data-bs-target="#fcbeda"
+		   type="button" role="tab" aria-controls="fcbeda" aria-selected="true">Windows</a>
 
 		
 
 		<a class="nav-link "
-		   id="acdbefTab" data-bs-toggle="tab" data-bs-target="#acdbef"
-		   type="button" role="tab" aria-controls="acdbef" aria-selected="true">Linux</a>
+		   id="cfeadbTab" data-bs-toggle="tab" data-bs-target="#cfeadb"
+		   type="button" role="tab" aria-controls="cfeadb" aria-selected="true">Linux</a>
 
 		
 
@@ -422,7 +412,7 @@
 
 
 
-<div class="tab-pane fade show active" id="cebdfa" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade show active" id="fcbeda" role="tabpanel" aria-labelledby="nav-1">
 
 	<p>Build the executable</p>
 
@@ -438,7 +428,7 @@
 
 
 
-<div class="tab-pane fade" id="acdbef" role="tabpanel" aria-labelledby="nav-1">
+<div class="tab-pane fade" id="cfeadb" role="tabpanel" aria-labelledby="nav-1">
 
 	<p>Actually build the executable</p>
 
@@ -731,6 +721,15 @@
     index.add(
             {
                 id:  0 ,
+                href: "\/docs\/",
+                title: "ChatDJ Documentation",
+                description: "Explore how to setup and use ChatDJ",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  1 ,
                 href: "\/docs\/overview\/",
                 title: "Overview",
                 description: "What's this all about?",
@@ -739,16 +738,16 @@
         );
     index.add(
             {
-                id:  1 ,
+                id:  2 ,
                 href: "\/docs\/faq\/",
                 title: "FAQ",
                 description: "Frequently Asked Questions",
-                content: "Why does this exist? link My friend was streaming on Twitch one day, and I wanted her to swap playlists, and saw she had to manually do it. So I wanted to create something that will add the functionality of Songify, and the swapping of the playlists, plus anything else we could think of tbh. Why can’t I use the Twitch redemptions I already set up through the dashboard? link Good question! Ask the Twitch developers. From their documentation, it only says “The app used to create the reward is the only app that may update the redemption.” I miss pubsub. Why doesn’t when I refuse a redemption from the queue, it doesn’t remove it from the queue, why do we have to skip it? link Another great question! Because the Spotify dev’s haven’t yet (or won’t) implemented that into the API. But c’mon. A multi-billion dollar corporation not doing something to help their community? Where have I heard that before? "
+                content: "Why does this exist? link My friend was streaming on Twitch one day, and I wanted her to swap playlists, and saw she had to manually do it. So I wanted to create something that will add the functionality of Songify, and the swapping of the playlists, plus anything else we could think of tbh. Why can’t I use the Twitch redemptions I already set up through the dashboard? link Good question! Ask the Twitch developers. From their documentation, it only says “The app used to create the reward is the only app that may update the redemption.” I miss pubsub. Why when I refuse a redemption from the queue, it doesn’t remove it from the queue, why do we have to skip it? link Another great question! Because the Spotify dev’s haven’t yet (or won’t) implemented that into the API. But c’mon. A multi-billion dollar corporation not doing something to help their community? Where have I heard that before? "
             }
         );
     index.add(
             {
-                id:  2 ,
+                id:  3 ,
                 href: "\/docs\/getting-started\/",
                 title: "Getting Started",
                 description: "How to use the application.",
@@ -757,7 +756,7 @@
         );
     index.add(
             {
-                id:  3 ,
+                id:  4 ,
                 href: "\/docs\/getting-started\/downloading\/",
                 title: "Download",
                 description: "Download the Latest Release",
@@ -766,7 +765,7 @@
         );
     index.add(
             {
-                id:  4 ,
+                id:  5 ,
                 href: "\/docs\/getting-started\/setup-applications\/",
                 title: "Setup Applications",
                 description: "Setup external API access.",
@@ -775,7 +774,7 @@
         );
     index.add(
             {
-                id:  5 ,
+                id:  6 ,
                 href: "\/docs\/getting-started\/setup-applications\/twitch\/",
                 title: "Twitch",
                 description: "Setting up the Twitch side of things",
@@ -784,7 +783,7 @@
         );
     index.add(
             {
-                id:  6 ,
+                id:  7 ,
                 href: "\/docs\/getting-started\/setup-applications\/spotify\/",
                 title: "Spotify",
                 description: "Setting up the Spotify side of things",
@@ -793,7 +792,7 @@
         );
     index.add(
             {
-                id:  7 ,
+                id:  8 ,
                 href: "\/docs\/running-script\/",
                 title: "Running as a Script",
                 description: "Run the source code as in script form.",
@@ -802,29 +801,20 @@
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/docs\/building\/",
                 title: "Building",
                 description: "Build the source code into an executable program.",
-                content: "Install go linkhttps://go.dev/dl/\nCloning and installing dependencies linkClone the project\ngit clone https://github.com/vpamm/ChatDJ Go to the project directory\ncd ChatDJ Install dependencies\ngo get ./... Building the executable link info This is an alert with an info context. It consists of the info theme colour and icon. Windows Linux Build the executable\ngo build -ldflags -H=windowsgui -o ChatDJ.exe Actually build the executable\ngo build -o ChatDJ Make it executable\nchmod +x ChatDJ "
-            }
-        );
-    index.add(
-            {
-                id:  9 ,
-                href: "\/docs\/contributing\/",
-                title: "Contributing",
-                description: "Contribute to the project",
-                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Create an issue link Bug report Feature request "
+                content: "Install go linkhttps://go.dev/dl/\nCloning and installing dependencies linkClone the project\ngit clone https://github.com/vpamm/ChatDJ Go to the project directory\ncd ChatDJ Install dependencies\ngo get ./... Building the executable link Windows Linux Build the executable\ngo build -ldflags -H=windowsgui -o ChatDJ.exe Actually build the executable\ngo build -o ChatDJ Make it executable\nchmod +x ChatDJ "
             }
         );
     index.add(
             {
                 id:  10 ,
-                href: "\/docs\/",
-                title: "Docs",
-                description: "",
-                content: ""
+                href: "\/docs\/contributing\/",
+                title: "Contributing",
+                description: "Contribute to the project",
+                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Create an issue link Bug report Feature request "
             }
         );
     search.addEventListener('input', show_results, true);

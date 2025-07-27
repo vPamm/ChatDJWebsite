@@ -652,6 +652,15 @@
     index.add(
             {
                 id:  0 ,
+                href: "\/docs\/",
+                title: "ChatDJ Documentation",
+                description: "Explore how to setup and use ChatDJ",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  1 ,
                 href: "\/docs\/overview\/",
                 title: "Overview",
                 description: "What's this all about?",
@@ -660,16 +669,16 @@
         );
     index.add(
             {
-                id:  1 ,
+                id:  2 ,
                 href: "\/docs\/faq\/",
                 title: "FAQ",
                 description: "Frequently Asked Questions",
-                content: "Why does this exist? link My friend was streaming on Twitch one day, and I wanted her to swap playlists, and saw she had to manually do it. So I wanted to create something that will add the functionality of Songify, and the swapping of the playlists, plus anything else we could think of tbh. Why can’t I use the Twitch redemptions I already set up through the dashboard? link Good question! Ask the Twitch developers. From their documentation, it only says “The app used to create the reward is the only app that may update the redemption.” I miss pubsub. Why doesn’t when I refuse a redemption from the queue, it doesn’t remove it from the queue, why do we have to skip it? link Another great question! Because the Spotify dev’s haven’t yet (or won’t) implemented that into the API. But c’mon. A multi-billion dollar corporation not doing something to help their community? Where have I heard that before? "
+                content: "Why does this exist? link My friend was streaming on Twitch one day, and I wanted her to swap playlists, and saw she had to manually do it. So I wanted to create something that will add the functionality of Songify, and the swapping of the playlists, plus anything else we could think of tbh. Why can’t I use the Twitch redemptions I already set up through the dashboard? link Good question! Ask the Twitch developers. From their documentation, it only says “The app used to create the reward is the only app that may update the redemption.” I miss pubsub. Why when I refuse a redemption from the queue, it doesn’t remove it from the queue, why do we have to skip it? link Another great question! Because the Spotify dev’s haven’t yet (or won’t) implemented that into the API. But c’mon. A multi-billion dollar corporation not doing something to help their community? Where have I heard that before? "
             }
         );
     index.add(
             {
-                id:  2 ,
+                id:  3 ,
                 href: "\/docs\/getting-started\/",
                 title: "Getting Started",
                 description: "How to use the application.",
@@ -678,7 +687,7 @@
         );
     index.add(
             {
-                id:  3 ,
+                id:  4 ,
                 href: "\/docs\/getting-started\/downloading\/",
                 title: "Download",
                 description: "Download the Latest Release",
@@ -687,7 +696,7 @@
         );
     index.add(
             {
-                id:  4 ,
+                id:  5 ,
                 href: "\/docs\/getting-started\/setup-applications\/",
                 title: "Setup Applications",
                 description: "Setup external API access.",
@@ -696,7 +705,7 @@
         );
     index.add(
             {
-                id:  5 ,
+                id:  6 ,
                 href: "\/docs\/getting-started\/setup-applications\/twitch\/",
                 title: "Twitch",
                 description: "Setting up the Twitch side of things",
@@ -705,7 +714,7 @@
         );
     index.add(
             {
-                id:  6 ,
+                id:  7 ,
                 href: "\/docs\/getting-started\/setup-applications\/spotify\/",
                 title: "Spotify",
                 description: "Setting up the Spotify side of things",
@@ -714,7 +723,7 @@
         );
     index.add(
             {
-                id:  7 ,
+                id:  8 ,
                 href: "\/docs\/running-script\/",
                 title: "Running as a Script",
                 description: "Run the source code as in script form.",
@@ -723,29 +732,20 @@
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/docs\/building\/",
                 title: "Building",
                 description: "Build the source code into an executable program.",
-                content: "Install go linkhttps://go.dev/dl/\nCloning and installing dependencies linkClone the project\ngit clone https://github.com/vpamm/ChatDJ Go to the project directory\ncd ChatDJ Install dependencies\ngo get ./... Building the executable link info This is an alert with an info context. It consists of the info theme colour and icon. Windows Linux Build the executable\ngo build -ldflags -H=windowsgui -o ChatDJ.exe Actually build the executable\ngo build -o ChatDJ Make it executable\nchmod +x ChatDJ "
-            }
-        );
-    index.add(
-            {
-                id:  9 ,
-                href: "\/docs\/contributing\/",
-                title: "Contributing",
-                description: "Contribute to the project",
-                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Create an issue link Bug report Feature request "
+                content: "Install go linkhttps://go.dev/dl/\nCloning and installing dependencies linkClone the project\ngit clone https://github.com/vpamm/ChatDJ Go to the project directory\ncd ChatDJ Install dependencies\ngo get ./... Building the executable link Windows Linux Build the executable\ngo build -ldflags -H=windowsgui -o ChatDJ.exe Actually build the executable\ngo build -o ChatDJ Make it executable\nchmod +x ChatDJ "
             }
         );
     index.add(
             {
                 id:  10 ,
-                href: "\/docs\/",
-                title: "Docs",
-                description: "",
-                content: ""
+                href: "\/docs\/contributing\/",
+                title: "Contributing",
+                description: "Contribute to the project",
+                content: "Contribute to code linkCreate a Pull Request link Follow the GitHub flow. Follow the Conventional Commits Specification Improve documentation link Follow the GitHub flow. Follow the Conventional Commits Specification Create an issue link Bug report Feature request "
             }
         );
     search.addEventListener('input', show_results, true);
