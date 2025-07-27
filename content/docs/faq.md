@@ -17,6 +17,6 @@ toc: true
 
 - Good question! Ask the Twitch developers. From [their documentation](https://dev.twitch.tv/docs/api/reference/#update-redemption-status), it only says "The app used to create the reward is the only app that may update the redemption." I miss pubsub.
 
-### Why doesn't when I refuse a redemption from the queue, it doesn't remove it from the queue, why do we have to skip it?
+### Why when I refuse a redemption from the queue, it doesn't remove it from the queue, why do we have to skip it?
 
 - Another great question! Because the Spotify dev's haven't yet (or [won't](https://community.spotify.com/t5/Spotify-for-Developers/API-Delete-Remove-songs-from-queue/td-p/4956378)) implemented that into the API. But c'mon. A multi-billion dollar corporation not doing something to help their community? [Where have I heard that before?](https://community.spotify.com/t5/Spotify-for-Developers/Access-to-websockets/td-p/4955299/)
